@@ -1,0 +1,167 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  <title>Plate to People</title>
+  <style>
+    * {
+      margin: 0;
+      padding: 0;
+      box-sizing: border-box;
+    }
+    body {
+      font-family: Arial, sans-serif;
+      line-height: 1.6;
+    }
+    .top-image {
+      background: url('image/home1.png') no-repeat center center/cover;
+      width: 100%;
+      height: 700px;
+      display: flex;
+      flex-direction: column;
+      justify-content: center;
+      align-items: center;
+      color: white;
+      text-align: center;
+    }
+    .top-image h1 {
+      font-size: 180px;
+    }
+    .top-image p {
+      font-size: 60px;
+      margin-top: 0px;
+      color: #FFFFFF;
+    }
+    .section {
+      text-align: center;
+      padding: 40px 20px;
+    }
+    .section h2 {
+      font-size: 70px;
+      margin-bottom: 10px;
+      color: #333;
+    }
+    .section blockquote {
+      font-size: 30px;
+      color: #555;
+      max-width: 1300px;
+      margin: 0 auto;
+    }
+    .full-width-image {
+      width: 100%;
+      height: 500px;
+      background: url('image/home2.png') no-repeat center center/cover;
+      margin: 40px 0;
+    }
+    .solution-box {
+      border: 2px solid #ccc;
+      margin: 40px auto;
+      padding: 20px;
+      width: 80%;
+      position: relative;
+    }
+    .solution-box::before {
+      content: "Our Solutions";
+      position: absolute;
+      top: -20px;
+      left: 20px;
+      background: white;
+      padding: 0 10px;
+      font-size: 30px;
+      font-weight: bold;
+    }
+    .solution-box img {
+      display: block;
+      width: 100%;
+      max-width: 1200px;
+      margin: 20px auto;
+    }
+    .image-button {
+      display: block;
+      margin: 30px auto;
+      border: none;
+      background: none;
+      cursor: pointer;
+    }
+    .image-button img {
+      width: 600px;
+    }
+    .contact-section {
+      background: black;
+      color: white;
+      padding: 30px 20px;
+      text-align: center;
+    }
+    .contact-top {
+      display: flex;
+      justify-content: space-between;
+      padding: 0 20px;
+      font-size: 16px;
+    }
+    .social-icons {
+      margin: 20px 0;
+    }
+    .social-icons img {
+      width: 30px;
+      margin: 0 10px;
+      vertical-align: middle;
+    }
+    .contact-section button {
+      background: white;
+      color: black;
+      padding: 10px 20px;
+      border: none;
+      cursor: pointer;
+      font-weight: bold;
+    }
+  </style>
+</head>
+<body>
+
+  <div class="top-image">
+    <h1>Plate to People</h1>
+    <p>Fighting hunger, Fueling jobs, Bridging gaps</p>
+  </div>
+
+  <div class="section">
+    <h2>Our idea</h2>
+    <blockquote>
+      Gathering leftover food from diverse restaurants across Bangladesh to feed the poor, fight poverty, foster job creation, and promote gender equality.
+    </blockquote>
+
+    <h2 style="margin-top: 40px;">Our vision</h2>
+    <blockquote>
+      To liberate Bangladesh from hunger’s chain and guide her toward flourishing economic growth.
+    </blockquote>
+  </div>
+
+  <div class="full-width-image"></div>
+
+  <div class="solution-box">
+    <img src="image/home3.png" alt="Solution 1">
+    <img src="image/home4.png" alt="Solution 2">
+    <img src="image/home5.png" alt="Solution 3">
+  </div>
+
+  <a href="about_us.html">
+    <button class="image-button">
+      <img src="image/home6.png" alt="Button">
+    </button>
+  </a>
+
+  <div class="contact-section">
+    <div class="contact-top">
+      <div>Email: plate.to.people@sdg.bd.npo</div>
+      <div>Contact: +8800011233456</div>
+    </div>
+    <div class="social-icons">
+      <img src="image/facebook.png" alt="Facebook">
+      <img src="image/x.png" alt="X">
+      <img src="image/instagram.png" alt="Instagram">
+    </div>
+    <button>Contact Us</button>
+  </div>
+
+</body>
+</html>

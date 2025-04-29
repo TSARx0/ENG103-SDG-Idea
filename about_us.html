@@ -1,0 +1,133 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  <title>Plate to People</title>
+  <style>
+    * {
+      margin: 0;
+      padding: 0;
+      box-sizing: border-box;
+    }
+    body {
+      font-family: Arial, sans-serif;
+    }
+
+    /* Section 1 */
+    .top-section {
+      position: relative;
+      width: 100%;
+      height: 100px;
+      background: url('image/home1.png') no-repeat center center/cover;
+      color: white;
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      text-align: center;
+    }
+    .top-section h1 {
+      font-size: 55px;
+      z-index: 1;
+    }
+    .top-section .home-button {
+      position: absolute;
+      top: 20px;
+      right: 20px;
+      background-color: white;
+      color: black;
+      padding: 10px 15px;
+      border: none;
+      font-weight: bold;
+      cursor: pointer;
+      z-index: 2;
+    }
+
+    /* Section 2 */
+    .middle-section {
+      text-align: center;
+      padding: 40px 20px;
+    }
+    .middle-section h2 {
+      font-size: 42px;
+      margin-bottom: 30px;
+    }
+    .middle-section img {
+      width: 80%;
+      margin: 20px 0;
+    }
+
+    /* Section 3 - Contact */
+    .contact-section {
+      background-color: black;
+      color: white;
+      padding: 30px 20px;
+    }
+    .contact-top {
+      display: flex;
+      justify-content: space-between;
+      flex-wrap: wrap;
+      font-size: 16px;
+      padding-bottom: 20px;
+    }
+    .social-icons {
+      text-align: center;
+      margin-bottom: 20px;
+    }
+    .social-icons img {
+      width: 30px;
+      margin: 0 10px;
+    }
+    .contact-section button {
+      background-color: white;
+      color: black;
+      padding: 10px 20px;
+      border: none;
+      font-weight: bold;
+      cursor: pointer;
+      display: block;
+      margin: 0 auto;
+    }
+
+    @media (max-width: 600px) {
+      .contact-top {
+        flex-direction: column;
+        align-items: center;
+        text-align: center;
+      }
+    }
+  </style>
+</head>
+<body>
+
+  <!-- Section 1 -->
+  <div class="top-section">
+    <h1>Plate to People</h1>
+    <a href="index.html">
+      <button class="home-button">Go to Homepage</button>
+    </a>
+  </div>
+
+  <!-- Section 2 -->
+  <div class="middle-section">
+    <h2>What We Do</h2>
+    <img src="image/home7.png" alt="What we do Image 1"><br>
+    <img src="image/home8.png" alt="What we do Image 2">
+  </div>
+
+  <!-- Section 3 -->
+  <div class="contact-section">
+    <div class="contact-top">
+      <div>Email: plate.to.people@sdg.bd.npo</div>
+      <div>Contact: +8800011233456</div>
+    </div>
+    <div class="social-icons">
+      <img src="image/facebook.png" alt="Facebook">
+      <img src="image/x.png" alt="X">
+      <img src="image/instagram.png" alt="Instagram">
+    </div>
+    <button>Contact Us</button>
+  </div>
+
+</body>
+</html>
